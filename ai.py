@@ -68,7 +68,7 @@ st.markdown("""
 st.title("🐺 kızıl kurt: patron eğitici")
 
 # API Anahtarını Streamlit Secrets üzerinden alıyoruz (Güvenlik için)
-genai.configure(api_key=st.secrets("APİ_KEY"))
+genai.configure(api_key=st.secrets("API_KEY"))
 
 # Ajanın Kuralları (Burayı görev kağıdındaki kendi kurallarınızla değiştirebilirsiniz)
 sistem_komutu = """Senin adın kurtai. Ortaokul öğrencilerine Arduino öğreten bir asistansın.
